@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(fonts/Gilroy-Medium.woff);
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(fonts/Gilroy-Bold.woff);
+    font-weight: bold;
+    font-style: normal;
+}
+
+.container {
+    width: 1445px;
+    margin: 0 auto;
+    height: 800px;
+}
+
+.vektor {
+    width: 940.6px;
+    margin-top: 14.92px;
+    margin-bottom: 40px;
+    border: 1px solid #828282;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.denis {
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.header {
+    padding-top: 32px;
+    font-family: 'Gilroy';
+    font-weight: bold;
+    font-style: normal;  
+}
+
+.menu-list {
+    list-style-type: none;
+    font-size: 18px;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: #828282;
+}
+
+.menu a:hover {
+    color: black;
+}
+
+.translation a:hover {
+    color: black;
+}
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+h2.denis-novik {
+    font-size: 47px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gilroy';
+    font-weight: bold;
+    font-style: normal;
+}
+
+.old {
+    font-family: 'Gilroy';
+    font-weight: 500;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+}
+
+.text-denis {
+    display: flex;
+    justify-content: space-between;
+}
+
+.translation {
+    transform: rotate(-90deg);
+    display: flex;
+    align-items: end;
+    padding-bottom: 16px;
+}
+
+.ru,
+.eng {
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'Gilroy';
+    font-weight: bold;
+    font-style: normal;
+    padding-right: 3px;
+    color: #828282;
+}
+
+.tr {
+    font-family: 'Gilroy';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 16px;
+    padding-right: 3px;
+}
+
+.den {
+    width: 943.61px;
+    height: 387px;
+    margin-top: 50px;
+    margin-bottom: 104px;
+}
+
+.about {
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+    text-align: center;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 180px;
+    background-color: #F6F6F6;
+    height: 530px;
+}
+
+.me {
+    font-size: 34px;
+    font-family: 'Gilroy';
+    font-weight: bold;
+    font-style: normal;
+    padding-top: 100px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-family: 'Gilroy';
+    font-weight: 500;
+    font-style: normal;
+}
+
+.skills {
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 164px;
+    height: 500px;
+}
+
+.skil {
+    font-family: 'Gilroy';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 34px;
+    text-align: center;
+    margin-top: 91px;
+}
+
+.work {
+    font-family: 'Gilroy';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 84px;
+}
+
+.program {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.text1 {
+    font-family: 'Gilroy';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 14px;
+    color: #828282;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 23px;
+}
+
+.T {
+    flex-direction: column;
+    text-align: center;
+}
+
+.star1 {
+    background-image: url(img/Star.png);
+    width: 26px;
+    height: 26px;
+    background-repeat: no-repeat;
+}
+
+.star2 {
+    background-image: url(img/Starr.png);
+    width: 26px;
+    height: 26px;
+    background-repeat: no-repeat;
+}
+
+.img {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.star {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.starr {
+    padding-top: 56px;
+}
+
+.pro {
+    width: 166px;
+    height: 206px;
+}
+
+.portfolio {
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 20px;
+    background-color: #F6F6F6;
+}
+
+.h1portfolio {
+    font-family: 'Gilroy';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 34px;
+    text-align: center;
+    padding-top: 112px;
+}
+
+.girl {
+    padding-top: 47px;
+}
+
+.online {
+    font-family: 'Gilroy';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+}
+
+.reebok {
+    padding-top: 100px;
+}
+
+.photo {
+    padding-top: 100px;
+}
+
+.online1 {
+    font-family: 'Gilroy';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+    padding-bottom: 96px;
+}
+
+.contacts {
+    padding-left: 250px;
+    padding-right: 250px;
+    height: 700px;
+}
+
+.h1contacts {
+    font-family: 'Gilroy';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 34px;
+    text-align: center;
+    padding-top: 112px;
+}
+
+.pcontacts {
+    font-family: 'Gilroy';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.send1 {
+    text-decoration: none;
+    color: white;
+    font-family: 'Gilroy';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.send {
+    background-color: black;
+    width: 180px;
+    height: 42px;
+    border-radius: 21px;
+}
+
+.send2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+
+.social_img {
+    padding-top: 85px;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.like {
+    font-family: 'Gilroy';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    color: #828282;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 120px;
+}
